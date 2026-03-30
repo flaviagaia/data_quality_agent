@@ -11,6 +11,10 @@ O sistema responde perguntas como:
 - que tipo de correção operacional deveria ser aplicada?
 - o registro pode seguir para consumo analítico ou deve ser bloqueado?
 
+## Interface
+
+![Interface do data quality agent](assets/enriquecimento.jpg)
+
 ## Arquitetura
 
 ```mermaid
@@ -297,6 +301,10 @@ Possíveis evoluções para uma versão mais robusta:
 ## English Version
 
 `Data Quality Agent` is a `Haystack Agents` MVP for data enrichment and data quality evaluation. The project inspects customer records, detects formatting and consistency issues, recommends remediation steps, and produces an executive summary grounded in the queried record. When the Haystack runtime is unavailable, a deterministic fallback preserves the same output contract for local reproducibility.
+
+## Interface
+
+![Data quality agent interface](assets/enriquecimento.jpg)
 
 ### Technical Highlights
 
