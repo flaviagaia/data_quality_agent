@@ -47,17 +47,17 @@ O projeto foi estruturado em quatro camadas:
 
 ## Estrutura do Projeto
 
-- [src/sample_data.py](/Users/flaviagaia/Documents/CV_FLAVIA_CODEX/data_quality_agent/src/sample_data.py)
+- [src/sample_data.py](src/sample_data.py)
   - base demo de registros.
-- [src/tools.py](/Users/flaviagaia/Documents/CV_FLAVIA_CODEX/data_quality_agent/src/tools.py)
+- [src/tools.py](src/tools.py)
   - tools de validação, correção e resumo.
-- [src/agent.py](/Users/flaviagaia/Documents/CV_FLAVIA_CODEX/data_quality_agent/src/agent.py)
+- [src/agent.py](src/agent.py)
   - orquestração com `Haystack Agents` e fallback.
-- [app.py](/Users/flaviagaia/Documents/CV_FLAVIA_CODEX/data_quality_agent/app.py)
+- [app.py](app.py)
   - console técnico em `Streamlit`.
-- [main.py](/Users/flaviagaia/Documents/CV_FLAVIA_CODEX/data_quality_agent/main.py)
+- [main.py](main.py)
   - execução rápida e persistência do relatório.
-- [tests/test_agent.py](/Users/flaviagaia/Documents/CV_FLAVIA_CODEX/data_quality_agent/tests/test_agent.py)
+- [tests/test_agent.py](tests/test_agent.py)
   - validação do fluxo principal.
 
 ## Como o Haystack Agent foi modelado
@@ -222,7 +222,7 @@ Esse contrato único facilita integração futura com pipelines de qualidade, lo
 
 ## Persistência e Artefatos
 
-O script [main.py](/Users/flaviagaia/Documents/CV_FLAVIA_CODEX/data_quality_agent/main.py) gera o artefato:
+O script [main.py](main.py) gera o artefato:
 
 - `data/processed/data_quality_report.json`
 
@@ -246,7 +246,7 @@ Na prática, o Streamlit funciona como uma `debuggable presentation layer`, perm
 
 ## Validação
 
-Os testes em [tests/test_agent.py](/Users/flaviagaia/Documents/CV_FLAVIA_CODEX/data_quality_agent/tests/test_agent.py) verificam:
+Os testes em [tests/test_agent.py](tests/test_agent.py) verificam:
 
 - detecção de problemas em um registro inconsistente;
 - retorno de status de correção;
